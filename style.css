@@ -7,10 +7,10 @@
 p{
  color: #474747; 
 }
- body{
+body{
   width: 1600px;
   margin: auto;
- }
+}
 
  header{
   background-color: #FFF8F3;
@@ -126,10 +126,128 @@ background-repeat: no-repeat;
       gap: 20px;
     }
     .child1 h2{
-      font-size: 25px;
+      font-size: 19px;
       color: #474747;
     }
     .child1 p{
       font-size: 20px;
     }
+    section{
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 50px;
+    }
+    section h1{
+      font-size: 35px;
+    }
+
+
+    #card{
+      width: 1140px;
+      margin: auto;
+      display: flex;
+      margin-bottom: 100px;
+      
+     
+    }
+    .card1{
+      width: 201px;
+      height: 276px;
+      border-radius: 5px;
+      text-align: start;
+     box-shadow: 0px 0px 8px;
+      padding: 20px;
+      margin: auto;
+     
+     
+    }
+    .card1 h1{
+      font-size: 20px;
+    }
+     .card1 p{
+      line-height: 23px;
+     }
+     .summary{
+      font-size: 35px;
+      text-align: center;
+      margin-bottom: 50px;
+
+     }
+      #cv{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+      }
+     .card3{
+      border-bottom: 1px solid;
+      width: 600px;
+      text-align: start;
+     }
+     .card3 h1{
+      font-size: 30px;
+      opacity: 0.7;
+     }
+     .card3 h3{
+      font-size: 25px;
+         opacity: 0.6;
+     }
+     .card3 h6{
+      font-size: 15px;
+      opacity: 0.4;
+      margin-top: -20px;
+     }
+     .cvbutton{
+      margin-top: 40px;
+      padding: 15px 20px;
+      border-radius: 10px;
+      border: none;
+      background-color: rgb(255, 153, 0);
+      color: #FFF8F3;
+      font-size: 20px;
+      cursor: pointer;
+      box-shadow: 0px 0px 8px  rgb(0, 0, 0);
+     }
+     footer{
+    
+      height: 780px;
+      background-color: #FFF8F3;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+     text-align: center;
+     gap:300px;
+     }
+    .footer1,.input {
+      margin-top:100px ;
+    }
+     footer h1{
+      font-size: 36px;
+
+     }
+      footer span{
+        color: orangered;
+        font-size: 25px;
+        margin-right: 20px;
+        transition: 0.3s;
+        cursor: pointer;
+     
+      }
+
+     .input input{
+     display: block;
+     margin-bottom:20px ;
+     padding: 20px 200px 20px 10px;
+     border: none;
+     border-radius: 5px;
+     text-align: start;
+     }
+      .input .inp{
+        padding: 20px 50px;
+        background-color: rgb(255, 129, 27);
+        color: #FFF8F3;
+        font-size: 20px;
+        cursor: pointer;
+        
+      }
 
